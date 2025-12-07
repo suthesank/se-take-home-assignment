@@ -8,7 +8,7 @@ const Dashboard = () => {
   const { pendingOrders, inProgressOrders, completeOrders, bots } = useApp();
   return (
     <div className="flex items-center justify-center font-sans dark:bg-black">
-      <main className="flex w-full max-w-3xl flex-col items-center justify-between py-16 px-16 dark:bg-black sm:items-start gap-10">
+      <main className="flex w-full max-w-3xl flex-col items-center justify-between py-16 px-4 dark:bg-black sm:items-start gap-10">
         <h1 className="text-2xl font-bold">Order Controller</h1>
         <Controls />
         <hr className="border-gray-300 border-b-0 w-full" />

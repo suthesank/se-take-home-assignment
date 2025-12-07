@@ -23,7 +23,7 @@ export default function Bots() {
   const { bots } = useApp();
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 w-full">
       <h2 className="text-lg font-bold">Bots</h2>
       {bots.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
